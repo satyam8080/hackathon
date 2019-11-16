@@ -1,0 +1,91 @@
+.table_margin{
+    margin-top: 7rem;
+    padding-top: 2rem;
+}
+.classHeader{
+    font-size: 10rem;
+    background-color: aqua;
+    
+}
+.postbtn{
+    color: darkgray;
+    border: none; 
+    width: 7rem;
+    margin-top: 1rem; 
+    height: 4rem;
+    color: white;
+    background:cornflowerblue ;
+    
+}
+.postbtn:hover{
+    box-shadow:  0px 5px 5px 0px;
+    border: #07c solid 1px;
+    
+}
+.titlebox{
+    display: block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 25rem;
+    
+}
+.realtextarea{
+    width: 50rem; height: 10rem; display: block;
+}
+.textarea{
+    font-size: 15px; 
+    overflow-y:  hidden;
+    max-width: 55rem; 
+    background-image: linear-gradient(to left,#cdcdcd,white);
+    font-size: 10px;
+}
+.signout_button:hover{
+    cursor: pointer;
+}
+.card_div{
+    width: 55rem;
+    
+}
+/* code for responsive navbar*/
+
+@media(max-width: 900px){
+    .table_margin{
+        margin-top: 30rem;
+    }
+    .realtextarea{
+        width: 35rem;   
+    }
+    .card_div{
+        width: 40rem;
+    }
+}
+
+.bardiv{
+    display: none;
+    float: left;
+    font-size: 2rem;
+}
+.bardiv:hover{
+    cursor: pointer;
+    
+}
+.div2{
+    display: none;
+}
+.div3{
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .bardiv{
+        display: block;
+        float: right;
+        right: 1rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+    .navbar-nav{
+        display: none;
+    }
+   
+}
+
